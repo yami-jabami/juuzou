@@ -18,7 +18,7 @@ services:
     environment:
       CONNECTIONS: 1000
       INTERVAL: 1m
-      RESOURCES_URL: https://raw.githubusercontent.com/almerico/bombardier/main/resources.txt
+      RESOURCES_URL: https://raw.githubusercontent.com/mad-maids/maid.juuzou/main/resources.txt
     logging:
       driver: awslogs
       options:

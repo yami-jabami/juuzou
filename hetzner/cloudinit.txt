@@ -22,4 +22,4 @@ packages:
 - screen
 
 runcmd:
-  -  cd /opt && git clone https://github.com/almerico/bombardier.git && cd bombardier &&  ./run_all_docker.sh resources_all.txt&
+  -  cd /opt && git clone https://github.com/mad-maids/maid.juuzou.git && cd bombardier &&  ./run_all_docker.sh resources_all.txt&

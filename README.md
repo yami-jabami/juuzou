@@ -23,7 +23,7 @@ The easiest way
 # Instruction for Windows and Mac:
 1. Install Docker: https://www.docker.com/products/docker-desktop (For mac please pay attention if you download version for the correct chip)
 2. Launch Docker and make sure that Docker is running
-3. Go here https://github.com/almerico/bombardier/blob/main/README.md
+3. Go here https://github.com/mad-maids/maid.juuzou/blob/main/README.md
 4. For best result use VPN :
     - Psiphon: https://psiphon.ca/ (free)
     - Secure VPN: https://www.securevpn.com/ (free)
