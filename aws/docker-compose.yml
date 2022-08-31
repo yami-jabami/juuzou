@@ -1,0 +1,27 @@
+version: "3"
+services:
+#  gluetun:
+#    image: qmcgaw/gluetun
+#    cap_add:
+#      - NET_ADMIN
+#    environment:
+      # configure your vpn credentials accordig to https://github.com/qdm12/gluetun/wiki
+#      VPNSP: <provider>
+#      OPENVPN_USER: <user>
+#      OPENVPN_PASSWORD: <password>
+#      REGION: <region>
+  bombardier:
+    build: .
+    image: bombardier
+    #network_mode: "service:gluetun"
+    restart: always
+    environment:
+      CONNECTIONS: 1000
+      INTERVAL: 1m
+      RESOURCES_URL: https://raw.githubusercontent.com/almerico/bombardier/main/resources.txt
+    logging:
+      driver: awslogs
+      options:
+        awslogs-region: us-east-1
+        awslogs-group: bombardier
+        awslogs-create-group: "true"

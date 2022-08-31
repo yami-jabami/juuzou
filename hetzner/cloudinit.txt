@@ -1,0 +1,25 @@
+#cloud-config
+groups:
+- docker
+apt:
+  sources:
+    docker.list:
+      source: 'deb [arch=amd64] https://download.docker.com/linux/ubuntu $RELEASE stable'
+      keyid: 0EBFCD88
+
+package_upgrade: true
+package_update: true
+
+packages:
+- debian-archive-keyring
+- apt-transport-https
+- ca-certificates
+- software-properties-common
+- htop
+- docker-ce
+- vim
+- git
+- screen
+
+runcmd:
+  -  cd /opt && git clone https://github.com/almerico/bombardier.git && cd bombardier &&  ./run_all_docker.sh resources_all.txt&

@@ -1,0 +1,8 @@
+/aws/.terraform.lock.hcl
+/aws/.terraform/
+/aws/terraform.tfstate
+/aws/terraform.tfstate.backup
+
+bombardier_dst.yaml
+
+/aws/lambda.zip
