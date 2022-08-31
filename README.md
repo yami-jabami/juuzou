@@ -1,6 +1,6 @@
 <p align="center"><img width="300" src="./docs/readme.webp"/></p>
 
-<h2 align="center">Maid Juuzou</h2>
+<h1 align="center">Maid Juuzou</h1>
 
 <p align="center">Malicious things on steroids.</p>
 
